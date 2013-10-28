@@ -2,7 +2,7 @@ clear
 echo " "
 echo " "
 echo "                                  Hi,"
-echo "
+echo " "
 echo "                              Let's begin"
 echo "                        Lassen Sie uns beginnen"
 echo "                              Commençons"
