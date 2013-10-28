@@ -6,7 +6,7 @@ echo "                       QUIT WORRYING ABOUT YOUR TOOLS."
 echo "           Automate the pain out of your development environment."  
 echo "  Boxen installs your dependencies so you can focus on getting things done."
 echo " "
-echo " boxen-portal includes adium, caffeine, google-chrome, homebrew, java  
+echo " boxen-portal includes adium, caffeine, google-chrome, homebrew, java," 
 echo " netbeans, phpstorm, rbenv, runy, subversion 1.7 vagrant 1.2 and virtualbox"
 echo " "
 echo " "
@@ -27,6 +27,6 @@ brew tap homebrew/versions
 brew install node
 echo "... homebrew ..."
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-echo "Installling rbenv and ruby (requires homebrew)..."
+echo "... rbenv and ruby ..."
 brew install rbenv
 brew install ruby
