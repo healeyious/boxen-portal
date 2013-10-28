@@ -1,11 +1,11 @@
 clear
-echo ____                      
-echo |  _ \                     
-echo | |_) | _____  _____ _ __  
-echo |  _ < / _ \ \/ / _ \ '_ \ 
-echo | |_) | (_) >  <  __/ | | |
-echo |____/ \___/_/\_\___|_| |_|
-echo .
+echo "____"
+echo "|  _ \"
+echo "| |_) | _____  _____ _ __"
+echo "|  _ < / _ \ \/ / _ \ '_ \"
+echo "| |_) | (_) >  <  __/ | | |"
+echo "|____/ \___/_/\_\___|_| |_|"
+echo "."
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
 cd ~/boxen/repo
