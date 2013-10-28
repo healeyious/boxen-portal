@@ -2,7 +2,12 @@ clear
 echo " "
 echo " "
 echo "                                  Hi,"
+echo "
 echo "                              Let's begin"
+echo "                        Lassen Sie uns beginnen"
+echo "                              Commençons"
+echo "                             首先，让我们"
+echo "                             始めましょう"
 echo " "
 echo " "
 rmdir ~/boxen
