@@ -9,15 +9,6 @@ echo " "
 echo " boxen-portal includes adium, caffeine, google-chrome, homebrew, java  
 echo " netbeans, phpstorm, rbenv, runy, subversion 1.7 vagrant 1.2 and virtualbox"
 echo " "
-github "java", "1.1.2"
-github "adium", "1.2.0"
-github "chrome", "1.1.1"
-github "netbeans", "1.0.0"
-github "phpstorm", "1.0.4"
-github "vagrant", "2.0.10"
-github "virtualbox", "1.0.7"
-github "caffeine", "1.0.0"
-
 echo " "
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
