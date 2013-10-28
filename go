@@ -2,7 +2,7 @@ clear
 echo " "
 echo " "
 echo "                                  Hi,"
-echo "                          You'll need these"
+echo "                              Let's begin"
 echo " "
 echo " "
 rmdir ~/boxen
