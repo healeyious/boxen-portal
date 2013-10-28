@@ -10,7 +10,7 @@ echo "                             首先，让我们"
 echo "                             始めましょう"
 echo " "
 echo " "
-rmdir ~/boxen
+rm -R ~/boxen
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
 cd ~/boxen/repo
