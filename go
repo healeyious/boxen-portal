@@ -3,9 +3,11 @@ echo "BBBBBBB"
 echo "B     B"
 echo "B     B  OOOOO  X   X  EEEEE  N    N"
 echo "BBBBBBB  O   O   X X   E      N N  N"
-echo "B     B  O   O    X    EEEEE  N  N N"
-echo "B     B  O   O   X X   E      N   NN"
+echo "B     B  O   O    X    EEEEE  N  N N"  
+echo "B     B  O   O   X X   E      N   NN"  
 echo "BBBBBBB  OOOOO  X   X  EEEEE  N    N"
+echo "."
+echo "QUIT WORRYING ABOUT YOUR TOOLS."
 echo "."
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
