@@ -1,14 +1,8 @@
 clear
 echo " "
 echo " "
-echo "                                  - Boxen -"
-echo "                       QUIT WORRYING ABOUT YOUR TOOLS."  
-echo "           Automate the pain out of your development environment."  
-echo "  Boxen installs your dependencies so you can focus on getting things done."
-echo " "
-echo "  boxen-portal includes adium, caffeine, google-chrome, homebrew, java," 
-echo "  netbeans, phpstorm, rbenv, ruby, subversion 1.7 vagrant 1.2,"
-echo "  vagrant-vbguest and virtualbox"
+echo "                                  Hi,"
+echo "                        You'll be needing these"
 echo " "
 echo " "
 mkdir ~/boxen
