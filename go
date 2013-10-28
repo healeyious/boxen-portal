@@ -5,6 +5,7 @@ echo "                                  Hi,"
 echo "                        You'll be needing these"
 echo " "
 echo " "
+rmdir ~/boxen
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
 cd ~/boxen/repo
