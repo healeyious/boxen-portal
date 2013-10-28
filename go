@@ -1,10 +1,10 @@
 clear
-echo d8888b.  .d88b.  db    db d88888b d8b   db 
-echo 88  `8D .8P  Y8. `8b  d8' 88'     888o  88 
-echo 88oooY' 88    88  `8bd8'  88ooooo 88V8o 88 
-echo 88~~~b. 88    88  .dPYb.  88~~~~~ 88 V8o88 
-echo 88   8D `8b  d8' .8P  Y8. 88.     88  V888 
-echo Y8888P'  `Y88P'  YP    YP Y88888P VP   V8P 
+echo ____                      
+echo |  _ \                     
+echo | |_) | _____  _____ _ __  
+echo |  _ < / _ \ \/ / _ \ '_ \ 
+echo | |_) | (_) >  <  __/ | | |
+echo |____/ \___/_/\_\___|_| |_|
 echo .
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
