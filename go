@@ -1,14 +1,12 @@
 clear
 echo " "
 echo " "
-echo "  BBBBBBB      -Portal Edition-"
-echo "  B     B"
-echo "  B     B  OOOOO  X   X  EEEEE  N    N"
-echo "  BBBBBBB  O   O   X X   E      N N  N"
-echo "  B     B  O   O    X    EEEEE  N  N N  QUIT WORRYING ABOUT YOUR TOOLS."  
-echo "  B     B  O   O   X X   E      N   NN  Automate the pain out of your development environment."  
-echo "  BBBBBBB  OOOOO  X   X  EEEEE  N    N  Boxen installs your dependencies so you can focus on getting things done."
+echo "                                  - Boxen -"
+echo "                       QUIT WORRYING ABOUT YOUR TOOLS."  
+echo "           Automate the pain out of your development environment."  
+echo "  Boxen installs your dependencies so you can focus on getting things done."
 echo " "
+echo " Portal edition includes subversion, vagrant, homebrew, rbenv, ruby, "
 echo " "
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
