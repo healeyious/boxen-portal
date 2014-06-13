@@ -14,7 +14,7 @@ rm -Rf ~/boxen
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
 cd ~/boxen/repo
-echo "ruby and json"
+echo "... ruby and json ..."
 curl -sSL https://get.rvm.io | bash -s stable
 rvm install ruby-2.0.0-p451
 ruby -v
