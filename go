@@ -28,7 +28,7 @@ echo "... nodejs ..."
 brew tap homebrew/versions
 brew install node
 echo "... homebrew ..."
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 echo "... rbenv and ruby ..."
 brew install rbenv
 brew install ruby
