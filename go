@@ -10,13 +10,11 @@ echo "                     首先，让我们"
 echo "                     始めましょう"
 echo " "
 echo " "
-echo "did you install xcode?"
-pause
 rm -Rf ~/boxen
 mkdir ~/boxen
 git clone -b 2.0 https://github.com/healeyious/boxen-portal ~/boxen/repo
 cd ~/boxen/repo
-script/boxen --no-fde
+ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ~/boxen/repo/script/boxen --no-fde
 touch ~/.bashrc
 echo '[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh' | cat > ~/.bashrc
 chown ${USER}:staff ~/.bashrc && chmod 755 ~/.bashrc
