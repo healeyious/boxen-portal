@@ -20,9 +20,9 @@ ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/
 touch ~/.bashrc
 echo '[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh' | cat > ~/.bashrc
 chown ${USER}:staff ~/.bashrc && chmod 755 ~/.bashrc
-echo "... subversion 1.7 ..."
+echo "... subversion ..."
 brew tap homebrew/versions
-brew install subversion17
+brew install subversion18
 echo "... vagrant-vbguest ..."
 vagrant plugin install vagrant-vbguest
 echo "... nodejs ..."
