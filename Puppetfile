@@ -42,7 +42,7 @@ github "go",         "1.0.0"
 github "homebrew",   "1.4.1"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",      "1.4.2"
+# github "nginx",      "1.4.2" failing
 # github "nodejs",     "3.3.0" download unavailable
 github "openssl",    "1.0.0"
 github "phantomjs",  "2.0.2"
