@@ -4,7 +4,7 @@ echo " "
 echo "                          Hi,"
 echo " "
 echo "                      Let's begin"
-echo "                     首先，让我们"
+echo "                    首先，让我们"
 echo " "
 echo " "
 java -version
