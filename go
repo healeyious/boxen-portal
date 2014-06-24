@@ -10,7 +10,7 @@ echo "                     首先，让我们"
 echo "                     始めましょう"
 echo " "
 echo " "
-java -version
+#java -version
 xcode-select --install
 rm -Rf ~/boxen
 mkdir ~/boxen
