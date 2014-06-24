@@ -1,9 +1,5 @@
 clear
-echo " "
-echo " "
 echo "首先，让我们"
-echo " "
-echo " "
 java -version
 xcode-select --install
 rm -Rf ~/boxen
