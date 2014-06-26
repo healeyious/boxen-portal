@@ -16,11 +16,11 @@ brew tap homebrew/versions
 brew install subversion18
 echo "... vagrant-vbguest ..."
 vagrant plugin install vagrant-vbguest
+echo "... homebrew ..."
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 echo "... nodejs ..."
 brew tap homebrew/versions
 brew install node
-echo "... homebrew ..."
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 echo "... rbenv and ruby ..."
 brew install rbenv
 brew install ruby
