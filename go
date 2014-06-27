@@ -14,6 +14,9 @@ chown ${USER}:staff ~/.bashrc && chmod 755 ~/.bashrc
 echo "... subversion ..."
 brew tap homebrew/versions
 brew install subversion18
+rm -rf /usr/bin/svn*
+sudo ln -s /usr/local/Cellar/subversion/1.8.9/bin/svn* /usr/bin/
+subversion --version
 echo "... vagrant-vbguest ..."
 vagrant plugin install vagrant-vbguest
 echo "... homebrew ..."
