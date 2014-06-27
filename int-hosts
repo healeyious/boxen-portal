@@ -1,0 +1,27 @@
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost
+fe80::1%lo0 localhost
+
+10.0.0.2 www.local.int01.brighttalk.net
+10.0.0.2 local.int01.brighttalk.net
+10.0.0.2 www.local.cuc.int01.brighttalk.net
+10.0.0.2 local.cuc.int01.brighttalk.net
+10.0.0.2 sfchannel.clients.local.int01.brighttalk.net
+10.0.0.2 www.local.int02.brighttalk.net
+10.0.0.2 local.int02.brighttalk.net
+10.0.0.2 sfchannel.brighttalk.dev
+10.0.0.2 sfchannel.local.int01.brighttalk.net
+10.0.0.2 sfchannel.client.local.int01.brighttalk.net
+10.0.0.2 sfportal.local.int01.brighttalk.net
+10.0.0.2 secure.brighttalk.dev
+10.0.0.2 mock-api.int01.brighttalk.net
+10.0.0.2 www.mock-api.int01.brighttalk.net
+10.0.0.2 www.mock-api.int02.brighttalk.net
+10.0.0.2 www.brighttalk.dev
+10.0.0.2 brighttalk.dev
+10.0.0.2 www.oldportal.local.int01.brighttalk.net
+
+192.168.33.10 rel.vagrant admin.vagrant
+192.168.220.21 www.mockapi.dev
+192.168.220.10 satis.brighttalk.net
