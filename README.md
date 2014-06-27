@@ -2,4 +2,4 @@
 
 Here's the code
 
-bash <(curl -L https://raw.github.com/healeyious/boxen-portal/go)
+bash <(curl -L https://raw.github.com/healeyious/boxen-portal/master/go)
