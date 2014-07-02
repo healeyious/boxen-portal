@@ -25,7 +25,7 @@ brew install rbenv
 brew install ruby
 echo "... subversion ..."
 brew tap homebrew/versions
-brew install subversion18
+brew install subversion
 sudo rm -rf /usr/bin/svn*
 sudo ln -s /usr/local/Cellar/subversion/1.8.9/bin/svn* /usr/bin/
 subversion --version
