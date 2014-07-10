@@ -27,4 +27,4 @@ echo "... subversion ..."
 sudo rm -rf /usr/bin/svn*
 brew tap homebrew/versions
 brew install subversion
-subversion --version
+svn --version
